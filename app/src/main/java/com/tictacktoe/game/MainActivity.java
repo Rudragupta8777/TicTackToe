@@ -8,9 +8,6 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
@@ -25,8 +22,6 @@ Vibrator vibrate;
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         init();
-
-
     }
     private void init(){
         btn1 = findViewById(R.id.btn1);
